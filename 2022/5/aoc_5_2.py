@@ -1,6 +1,6 @@
 import re
 
-with open("test_data.txt") as file:
+with open("data.txt") as file:
     data = file.read()
 
 state, guide = data.split("\n\n")
